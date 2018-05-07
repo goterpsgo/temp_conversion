@@ -41,5 +41,5 @@ stages:
    
 test_suite:
     stage: test
-    script: pyteset -q temp_conv_test.py
+    script: pytest -q temp_conv_test.py
 ```
